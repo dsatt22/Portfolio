@@ -1,6 +1,6 @@
-#top{
+/*#top{
     background-color: rgb(144, 143, 143);
-}
+}*/
 #top .container{
     align-items: center;
     display: grid;
@@ -23,7 +23,7 @@
     z-index: 1;
 }
 #top .info .blue-square{
-    border: 20px solid #dbf1ff;
+    border: 20px solid #6ba6ca;
     margin-left: -150px;
     height: 500px;
     width: 500px;
@@ -33,7 +33,7 @@
     left: -50%;
 }
 #top .info p{
-    color: black;
+    color: rgb(175, 10, 10);
     font-weight: 300;
     letter-spacing: 1px;
     margin-bottom: 2rem;

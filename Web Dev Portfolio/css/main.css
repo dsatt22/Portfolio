@@ -4,6 +4,10 @@
 @import "experience.css";
 @import "services.css";
 
+html{
+    background: black;
+}
+
 .container{
     max-width: 1150px;
     margin: 0 auto;

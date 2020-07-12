@@ -1,4 +1,91 @@
-#experience .large-title{
-    color: #000;
+#experience-section{
+    padding: 80px 15px;
+
+}
+#experience-section .large-title{
+    color: #c6e4ff;
+    font-weight: 900;
+    font-size: 4.5rem;
+    text-align: center;
     text-transform: uppercase;
+}
+#experience-section .experience-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+#experience-section .experience-container .large-icons .square{
+    border: 25px solid #52b8ff;
+    padding: 5px;
+    display: inline-block;
+    position: relative;
+    top: -100px;
+}
+#experience-section .experience-container .large-icons .square .blue-box{
+    width: 150px;
+    height: 150px;
+    background: #52b8ff;
+    padding: 5px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+}
+#experience-section .experience-container .large-icons .circle{
+        border: 25px solid red;
+        padding: 5px;
+        display: inline-block;
+        border-radius: 50%;
+        position: relative;
+        top: 125px;
+        left: 25px;
+}
+#experience-section .experience-container .large-icons .white-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        font-size: 1.1rem;
+        letter-spacing: 3px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: red;
+}
+#experience-section .experience-container .info{
+    color: white;
+    padding: 75px 0 0 0;
+}
+#experience-section .experience-container .info .info-box{
+    padding: 15px;
+}
+#experience-section .experience-container .info .info-box h4{
+    color: rgb(95, 1, 1);
+    font-size: 1.2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+#experience-section .experience-container .info .info-box .date{
+    color: #52b7ff;
+    font-size: .9rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    padding: 15px 0;
+    display: block;
+}
+#experience-section .experience-container .info .info-box p{
+    color: #97a3ac;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    display: block;
+    line-height: 1.5;
 }
