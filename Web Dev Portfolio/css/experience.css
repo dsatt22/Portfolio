@@ -3,7 +3,7 @@
 
 }
 #experience-section .large-title{
-    color: #c6e4ff;
+    color: #52b7ff;
     font-weight: 900;
     font-size: 4.5rem;
     text-align: center;
@@ -15,7 +15,7 @@
     gap: 20px;
 }
 #experience-section .experience-container .large-icons .square{
-    border: 25px solid #52b8ff;
+    border: 25px solid #52b7ff;
     padding: 5px;
     display: inline-block;
     position: relative;
@@ -24,7 +24,7 @@
 #experience-section .experience-container .large-icons .square .blue-box{
     width: 150px;
     height: 150px;
-    background: #52b8ff;
+    background: #52b7ff;
     padding: 5px;
     text-transform: uppercase;
     color: white;
@@ -36,7 +36,7 @@
     letter-spacing: 3px;
 }
 #experience-section .experience-container .large-icons .circle{
-        border: 25px solid red;
+        border: 25px solid rgb(95, 1, 1);
         padding: 5px;
         display: inline-block;
         border-radius: 50%;
@@ -55,7 +55,7 @@
         letter-spacing: 3px;
         font-weight: 600;
         text-transform: uppercase;
-        color: red;
+        color: rgb(95, 1, 1);
 }
 #experience-section .experience-container .info{
     color: white;
