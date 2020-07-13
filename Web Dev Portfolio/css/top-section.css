@@ -16,14 +16,14 @@
     font-size: 2rem;
     font-weight: 700;
     letter-spacing: 2px;
-    margin-left: -50px;
+    margin-left: -45px;
     margin-bottom: 2rem;
     position: relative;
     text-transform: uppercase;
     z-index: 1;
 }
 #top .info .blue-square{
-    border: 20px solid #52b7ff;
+    border: 20px solid #acaeaf;
     margin-left: -150px;
     height: 500px;
     width: 500px;
@@ -33,21 +33,21 @@
     left: -50%;
 }
 #top .info p{
-    color: rgb(175, 10, 10);
-    font-weight: 300;
+    color: rgb(95, 1, 1);
+    font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 2rem;
-    margin-left: -50px;
+    margin-left: -45px;
     position: relative;
     z-index: 1;
 }
 #top .info a{
-    border-bottom: 2px solid rgb(138, 26, 26);
-    color: rgb(138, 26, 26);
+    border-bottom: 2px solid rgb(95, 1, 1);
+    color: rgb(95, 1, 1);
     font-size: .9rem;
     font-weight: 700; 
     letter-spacing: 2px;
-    margin-left: -50px;
+    margin-left: -45px;
     padding-bottom: 5px;
     position: relative;
     text-decoration: none;
@@ -55,13 +55,13 @@
     z-index: 1;
 }
 #top .info .github{
-    border-bottom: 2px solid rgb(185, 45, 45);
-    color: rgb(185, 45, 45);
+    border-bottom: 2px solid rgb(95, 1, 1);
+    color: rgb(95, 1, 1);
     font-size: .9rem;
     font-weight: 700; 
     letter-spacing: 2px;
     margin-bottom: 20px;
-    margin-left: -50px;
+    margin-left: -45px;
     padding-top: 5px;
     position: relative;
     text-decoration: none;

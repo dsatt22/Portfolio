@@ -19,7 +19,7 @@
     padding: 5px;
     display: inline-block;
     position: relative;
-    top: -100px;
+    top: 0;
 }
 #experience-section .experience-container .large-icons .square .blue-box{
     width: 150px;
@@ -41,7 +41,7 @@
         display: inline-block;
         border-radius: 50%;
         position: relative;
-        top: 125px;
+        top: 225px;
         left: 25px;
 }
 #experience-section .experience-container .large-icons .white-box{
