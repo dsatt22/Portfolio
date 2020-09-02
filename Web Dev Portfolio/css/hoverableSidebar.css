@@ -1,0 +1,40 @@
+#mySidenav a {
+    position: fixed;
+    left: -100px;
+    transition: 0.3s;
+    padding: 5px;
+    width: 115px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  #main {
+    top: 20px;
+    background-color: #4CAF50;
+  }
+  
+  #aboutMe {
+    top: 80px;
+    background-color: #2196F3;
+  }
+  
+  #projects {
+    top: 140px;
+    background-color: #f44336;
+  }
+  
+  #experience {
+    top: 200px;
+    background-color: #0fdbb9;
+  }
+
+  #contact {
+    top: 260px;
+    background-color: #555;
+  }

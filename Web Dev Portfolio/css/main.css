@@ -1,5 +1,7 @@
 @import "reset.css";
 @import "top-section.css";
+@import "hoverableSidebar.css";
+@import "about-me.css";
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;0,700;1,600;1,700&display=swap');
 @import "portfolio.css";
 @import "experience.css";
