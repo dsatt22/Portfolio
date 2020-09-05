@@ -11,7 +11,7 @@
     margin: 0 auto;
 }
 #portfolio .title .square{
-    background: #16171b;
+    background: hsl(233, 4%, 38%);
     width: 150px;
     height: 150px;
     position: absolute;

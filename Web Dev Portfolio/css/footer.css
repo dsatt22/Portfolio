@@ -19,7 +19,7 @@
     padding: 10px;
 }
 #footer .social-container a:hover{
-    color: rgb(95, 1, 1);
+    color: hsl(0, 100%, 32%);
     cursor: pointer;
     transition: all .2s ease-in-out;
 }
