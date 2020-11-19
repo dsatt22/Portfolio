@@ -7,6 +7,65 @@
     grid-template-columns: 1fr 1fr;
     padding: 80px 0;
 }
+
+#top .background-img{
+    background: url('../img/portfolio-img.jpg');
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+}
+
+.img {
+    -webkit-animation-duration: 10s;
+            animation-duration: 2.5s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+}
+
+@-webkit-keyframes bounceInDown {
+    0% {
+       opacity: 0;
+       -webkit-transform: translateY(-2000px);
+    }
+    60% {
+       opacity: 1;
+       -webkit-transform: translateY(30px);
+    }
+    80% {
+       -webkit-transform: translateY(-10px);
+    }
+    100% { 
+       -webkit-transform: translateY(0);
+    }
+ }
+
+@keyframes bounceInDown {
+    0% {
+       opacity: 0;
+       transform: translateY(-2000px);
+    }
+    60% {
+       opacity: 1;
+       transform: translateY(30px);
+    }
+    80% {
+       transform: translateY(-10px);
+    }
+    100% {
+       transform: translateY(0);
+    }
+ }
+
+ .img {
+    -webkit-animation-name: bounceInDown;
+    animation-name: bounceInDown;
+ }
+
 #top .info{
     padding: 15px;
     position: relative;
@@ -34,42 +93,46 @@
     z-index: 1;
 }
 
-.img {
-    animation: bounce 2s infinite;
-}
-@keyframes bounce{
-    0%   { transform: translateY(6px), translateX(6px); }
-    5%   { transform: translateY(8px); }
-    10%  { transform: translateY(12px); }
-    15%  { transform: translateY(20px); }
-    20%  { transform: translateY(38px); }
-    25%  { transform: translateY(72px); }
-    30%  { transform: translateY(100px); }
-    35%  { transform: translateY(152px); }
-    40%  { transform: translateY(154px) scale(1.1, .9); }
-    50%  { transform: translateY(176px) scale(1.4, .6); }
-    55%  { transform: translateY(162px) scale(1.2, .8); }
-    60%  { transform: translateY(138px) scale(1.05, .95); }
-    65%  { transform: translateY(110px); }
-    70%  { transform: translateY(72px); }
-    75%  { transform: translateY(38px); }
-    80%  { transform: translateY(20px); }
-    85%  { transform: translateY(12px); }
-    90%  { transform: translateY(8px); }
-    95%  { transform: translateY(5px); }
-    100% { transform: translateY(5px); }
-}
-#top .background-img{
-    background: url('../img/portfolio-img.jpg');
-    background-position: top left;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 50%;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 400px;
-    height: 400px;
-}
+#mySidenav a {
+    position: fixed;
+    left: -100px;
+    transition: 0.3s;
+    padding: 5px;
+    width: 115px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  #main {
+    top: 20px;
+    background-color: #4CAF50;
+  }
+  
+  #aboutMe {
+    top: 80px;
+    background-color: #2196F3;
+  }
+  
+  #projects {
+    top: 140px;
+    background-color: #f44336;
+  }
+  
+  #experience {
+    top: 200px;
+    background-color: #0fdbb9;
+  }
+
+  #contact {
+    top: 260px;
+    background-color: #555;
+  }
 
 
 /* Tablets */
